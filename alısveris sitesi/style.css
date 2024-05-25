@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    
+}
+.logo{
+    text-align: center;
+    background-color: #aba0a0;
+}
+.menu{
+    background-color: black;
+    overflow: hidden;
+    border: wheat;
+    border-bottom-style: solid;
+    
+}  
+.menu ul{
+    margin: 0px;
+    padding: 2px;
+    padding-top: 0px;
+    
+}
+.menu ul li{
+    list-style-type: none;
+   float: left;
+}    
+.menu a{
+    display: block;
+    color: red;
+    padding: 30px 150px;
+    text-decoration: none;
+    font-size: 21px;
+  
+        
+}
+.menu a:hover{
+    background-color:black;
+    color: wheat;
+    
+}
+.erkek{
+    color: wheat;
+    background: black;
+    width: 400px;
+    height: 80px;
+    text-align: center;
+    border-color: wheat;
+    border-bottom: dotted;
+    margin-top: 0px;   
+    float: left;
+    font-family: serif;
+}
+.logo2{
+    
+    text-align: center;
+    margin-left: 18%;
+    width: 400px;
+    height: 80px;
+    margin-top: 0px;
+    float: left;
+    
+    color: wheat;
+    background-color: black;
+    border-bottom-style: dotted;
+    border-color: wheat;
+    font-family: serif;   
+}
+.logo3{
+   
+    text-align: center;
+    padding: 100px;
+
+}
+.populer{
+    color: wheat;
+    background: black;
+    width: 400px;
+    height: 80px;
+    text-align: center;
+    border-color: wheat;
+    border-bottom: dotted;
+    margin-top: 0px;   
+    float: right;
+    font-family: serif;
+}
+.alt{
+    text-align: center;  
+}
+.erkeksayfası{
+    color: wheat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: serif;
+    padding: 25px;
+    text-align: center;
+}
+.erkeksayfası a{
+    display: block;
+    color: wheat;
+    padding: 15px 75px;
+    text-decoration: none;
+    font-size: 21px;      
+}
+.erkeksayfası a:hover{
+    background-color:black;
+    color: red;  
+}
+.kadınsayfası{
+    color: wheat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: serif;
+    padding: 25px;
+    text-align: center;
+}
+.kadınsayfası a{
+    display: block;
+    color: wheat;
+    padding: 15px 75px;
+    text-decoration: none;
+    font-size: 21px;     
+}
+.kadınsayfası a:hover{
+    background-color:black;
+    color: red;   
+}
+.cocuksayfası{
+    color: wheat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: serif;
+    padding: 25px;
+    text-align: center;
+}
+.cocuksayfası a{
+    display: block;
+    color: wheat;
+    padding: 15px 75px;
+    text-decoration: none;
+    font-size: 21px;      
+}
+.cocuksayfası a:hover{
+    background-color:black;
+    color: red; 
+}
+.iletisimlogo{
+    color: wheat;
+    text-align: center;
+    padding: 15px 35px;
+    
+    
+}
+.insta{
+    float: left;
+    border-bottom-style: dashed;
+    border-color: wheat;
+}
+.twitter{
+    float: left;
+    border-bottom-style: dashed;
+    border-color: wheat;
+}
+.tel{
+    float: right;
+    border-bottom-style: dashed;
+    border-color: wheat;
+}
+.gmail{
+    float: right;
+    border-bottom-style: dashed;
+    border-color: wheat;
+}
+.altlogo{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.altyazı{
+    color: wheat;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    border-bottom-style: dashed;
+    border-color: wheat;
+}
+.stok{
+    color: wheat;
+    text-align: center;
+    font-size: xx-large;
+}
